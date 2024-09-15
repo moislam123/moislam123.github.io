@@ -1,0 +1,116 @@
+
+main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;    
+        font-family: 'Fredoka', cursive; 
+}
+
+.main-header {
+    background-color: #f39c12; 
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 150px;
+}
+
+
+
+#nav-ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+#nav-ul > li {
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+#nav-ul > li > a {
+    color: white;
+    padding: 12px;    
+}
+
+
+.main-header > a:hover {
+    text-decoration: none;
+}
+
+
+.logo {
+    font-family: 'Fredoka', cursive; /* Apply the font */
+    color: white; /* A bubbly pink color */
+    font-size: 37px; /* Big font size for emphasis */
+    letter-spacing: 1px; /* Adds slight spacing between letters */
+    font-weight: 400; /* Standard weight for a bubbly effect */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow with slight offset and opacity */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow effect */
+  }
+
+
+body > main article > header > h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+#mainarticle {
+    display: flex;
+}
+  
+  
+a {
+    color: #007bff; /* this changes colour of the link*/
+    text-decoration: none; /* this removes the line underneath link*/
+  }
+
+.navbutton {
+    border: white 1px solid; 
+}
+
+a:hover {
+    text-decoration: underline; /* this adds a line underneath the link once you hover over it*/
+  }
+
+body > main > aside > section > nav > ul > li > a {
+    text-decoration: underline;
+}
+
+.main-footer{
+    background-color: #f39c12; 
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > li {
+    display: flex;
+    margin-right: 50px;
+}
+
+#footer-ul > li > a {
+    color: white;
+    padding: 12px;    
+}
+
+.navbutton2 {
+    border: white 1px solid; 
+ }
+
+.main-footer> section > nav > ul > li > a {
+    color: white;
+}
+
+  
